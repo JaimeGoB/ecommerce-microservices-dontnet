@@ -16,6 +16,7 @@ namespace Basket.API.Entities
             UserName = userName;
         }
 
+        /* Adds all items to get checkout price */
         public decimal TotalPrice
         {
             get
